@@ -1,0 +1,110 @@
+@font-face {
+    font-family: myFont;
+    src: url("./Font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+
+    font-family: myFont;
+
+
+}
+
+div img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.name {
+    background-color: hsl(0, 0%, 12%);
+    font-size: 25px;
+}
+
+.place {
+    background-color: hsl(0, 0%, 12%);
+    font-size: small;
+    color: hsl(75, 94%, 57%);
+    height: auto;
+    margin-top: -20px;
+
+}
+
+.bio {
+    background-color: hsl(0, 0%, 12%);
+    font-size: small;
+    margin-bottom: -10px;
+}
+
+div {
+    background-color: hsl(0, 0%, 20%);
+    font-size: 14px;
+
+    width: 30vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(77, 228, 110);
+}
+
+footer a:hover {
+    color: hsl(75, 94%, 57%);
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.list:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+
+
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+
+}
